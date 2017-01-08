@@ -840,8 +840,104 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prefabToSpawn: {fileID: 4160266186421694, guid: 93c840b24f004634c96171873a1533f4,
     type: 2}
-  spawnRate: 1
-  randomDelay: 3
+  spawnCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: -0.0051926714
+      value: 2.0108018
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.06986438
+      value: 1.9107769
+      inSlope: -2.1088276
+      outSlope: -2.1088276
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.1845335
+      value: 1.5211711
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.3065502
+      value: 1.9673694
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.37474585
+      value: 1.2509444
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.4369341
+      value: 1.7971206
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.50668615
+      value: 1.3728561
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.5784661
+      value: 1.6328056
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.63441443
+      value: 1.1276417
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.69960326
+      value: 1.491292
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.76689494
+      value: 1.0728656
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.84805804
+      value: 1.6334963
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.88364184
+      value: 1.0879394
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 0.9515393
+      value: 1.7275155
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    - serializedVersion: 2
+      time: 1.0028242
+      value: 1.3489213
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  curveLengthSeconds: 30
+  jitter: 0.25
 --- !u!4 &977275118 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4872883817191336, guid: f75f3f0ae07ca5943a7fff947302e6b9,
