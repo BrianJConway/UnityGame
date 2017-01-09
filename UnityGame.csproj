@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\BunnyController.cs" />
     <Compile Include="Assets\Scripts\DestroyOnHit.cs" />
     <Compile Include="Assets\Scripts\MoveLeft.cs" />
+    <Compile Include="Assets\Scripts\Recycler.cs" />
     <Compile Include="Assets\Scripts\prefabSpawner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
