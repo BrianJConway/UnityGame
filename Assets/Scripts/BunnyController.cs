@@ -8,6 +8,8 @@ public class BunnyController : MonoBehaviour {
     private Rigidbody2D myRigidBody;
     private Collider2D myCollider;
     public Text scoreText;
+    public AudioSource JumpSfx;
+    public AudioSource DeathSfx;
 
     public float jumpForce = 500f;
     private Animator myAnim;
@@ -45,6 +47,7 @@ public class BunnyController : MonoBehaviour {
                     myRigidBody.AddForce(transform.up * jumpForce);
                 }
 
+                JumpSfx.Play();
                 jumpsLeft--;
             }
 
@@ -76,6 +79,7 @@ public class BunnyController : MonoBehaviour {
 
             bunnyHurtTime = Time.time;
             myAnim.SetBool( "bunnyHurt", true );
+            DeathSfx.Play();
 
             myRigidBody.velocity = Vector2.zero;
             myRigidBody.AddForce(transform.up * jumpForce );
